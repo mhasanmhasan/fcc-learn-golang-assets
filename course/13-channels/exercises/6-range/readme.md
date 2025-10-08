@@ -14,7 +14,7 @@ This example will receive values over the channel (blocking at each iteration if
 
 It's that time again, Mailio is hiring and we've been assigned to do the interview. For some reason, the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) is Mailio's interview problem of choice. We've been tasked with building a small toy program we can use in the interview.
 
-Complete the `concurrrentFib` function. It should:
+Complete the `concurrentFib` function. It should:
 
 * Create a new channel of `int`s
 * Call `fibonacci` in a goroutine, passing it the channel and the number of Fibonacci numbers to generate, `n`
