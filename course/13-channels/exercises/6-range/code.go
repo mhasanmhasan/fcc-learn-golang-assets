@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func concurrrentFib(n int) {
+func concurrentFib(n int) {
 	// ?
 }
 
@@ -13,7 +13,7 @@ func concurrrentFib(n int) {
 
 func test(n int) {
 	fmt.Printf("Printing %v numbers...\n", n)
-	concurrrentFib(n)
+	concurrentFib(n)
 	fmt.Println("==============================")
 }
 
